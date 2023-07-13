@@ -1,2 +1,2 @@
 #!/bin/bash
-alias dir="ls -al | grep ^d" | wc -l
+echo $PATH| wc -l
